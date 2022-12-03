@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/call-cc/icfp2006/um"
+	"github.com/call-cc/icfp2006.go/um"
 )
 
 func main() {

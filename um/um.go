@@ -79,8 +79,6 @@ func Spin() {
 	var opCnt [14]int
 
 	for {
-		txt := fmt.Sprintf("Finger: %d", UM.Finger)
-		UMScr.Registers.MvAddStr(0, 0, txt)
 		instr := UM.Platters[0][UM.Finger]
 		op := Op(instr)
 		opCnt[op] += 1
